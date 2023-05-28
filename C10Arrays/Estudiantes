@@ -1,0 +1,26 @@
+/**
+ * Con base en un arreglo de estudiantes, filtramos estudiantes aprobados y desaprobados.
+ * 
+ * Se crean dos funciones arrow para pasar como parámetro callback a la función de filtrado del array
+ * 
+ */
+let estudiantes = [
+    {nombre: 'John', promedio: 8.5, aprobado: true},
+    {nombre: 'Jane', promedio: 7, aprobado: true},
+    {nombre: 'June', promedio: 3, aprobado: false},
+]
+
+let filtrarEstudiantesAprobados = (estudiante) => {
+    return estudiante.aprobado;
+};
+
+let filtrarEstudiantesDesaprobados = (estudiante) => {
+    return !estudiante.aprobado;
+};
+
+
+let aprobados = estudiantes.filter(filtrarEstudiantesAprobados);
+let desaprobados = estudiantes.filter(filtrarEstudiantesDesaprobados);
+
+console.log(aprobados);
+console.log(desaprobados);

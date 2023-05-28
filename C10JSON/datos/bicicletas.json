@@ -1,0 +1,26 @@
+[
+    {
+        "marca": "Olmo",
+        "modelo": "Ruta",
+        "rodado": 16,
+        "anoFabricacion": 2019,
+        "color": "negro",
+        "peso": 13,
+        "tipo": "Paseo",
+        "precio": 12000000,
+        "vendida": true,
+        "id" : 1
+    },
+    {
+        "marca": "Battle",
+        "modelo": "Regal",
+        "rodado": 26,
+        "anoFabricacion": 2020,
+        "color": "rojo",
+        "peso": 15,
+        "tipo": "Retro",
+        "precio": 10000000,
+        "vendida": false,
+        "id": 2
+    }
+]
